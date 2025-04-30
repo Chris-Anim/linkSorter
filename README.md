@@ -15,7 +15,7 @@ This tool processes a `.txt`, `.md`, or `.json` file containing saved links, sum
 
 - [Python 3.8+](https://www.python.org/)
 - [Ollama](https://ollama.com/) with `llama3` model pulled and running:
-  ```bash
+```bash
   ollama pull llama3
   ollama serve
 ```
@@ -27,6 +27,7 @@ This tool processes a `.txt`, `.md`, or `.json` file containing saved links, sum
 ```bash
 python summarize_links.py all_links.md
 ```
+
 3. Output files will be saved to the `output_md/` directory
 
 ## 📝 Example Output
